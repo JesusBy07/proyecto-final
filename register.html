@@ -30,28 +30,29 @@
             <div class="input">
                 <div class="registrar-seccion">
                     <label for="nombre">nombre:</label>
-                    <input id="nombre" type="text" class="nombre" placeholder="nombre" required> 
+                    <input id="nombre"required type="text" class="nombre" placeholder="nombre" > 
                 </div>
                 <div class="registrar-seccion">
                     <label for="apellido">apellido:</label>
-                    <input id="apellido" type="text" id="apellido" placeholder="apellido" required>
+                    <input id="apellido"required type="text" id="apellido" placeholder="apellido" >
                 </div>
                  <div class="registrar-seccion">
                     <label for="gmail">gmail:</label>
-                    <input id="gmail" type="text" class="gmail" placeholder="example@gmail.com" required>
+                    <input id="gmail"required type="text" class="gmail" placeholder="example@gmail.com" >
                 </div>
                 <div class="registrar-seccion">
                     <label for="contraseña">contraseña:</label>
-                    <input id="contraseña" type="password" name="contraseña" id="contraseña" placeholder="ingrese una contraseña" minlength="8" maxlength="20" required>
+                    <input id="contraseña"required type="password" name="contraseña" id="contraseña" placeholder="ingrese una contraseña" minlength="8" maxlength="20" >
                 </div>
                 <div class="registrar-seccion">
-                    <label for="hombre">hombre</label>
-                    <input class="genero" type="radio" name="genero" class="hombre" required>
-                    <label for="mujer">mujer</label>
-                    <input class="genero" type="radio" name="genero" class="mujer" required>
+                    <label for="genero">selecciona tu genero</label>
+                    <select name="genero" id="genero" required>
+                      <option>hombre</option>
+                      <option>mujer</option>
+                    </select>
                 </div>
                 <div class="registrar-seccion">
-                    <button class="singin" id="boton" onclick="funcion()">crear</button>
+                    <button class="singin" id="boton" onclick="asa()">crear</button>
                 </div>
             </div>
             </form>
