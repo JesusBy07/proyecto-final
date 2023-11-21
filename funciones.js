@@ -15,4 +15,6 @@ function asa() {
   return false;
 }
 
-
+function apoyo(){
+  alert('la pagina no existente')
+}
