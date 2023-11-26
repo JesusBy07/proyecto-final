@@ -6,6 +6,19 @@ header{
     height: 100px;
 }
 
+#sesion{
+    width: 150px;
+    height: 40px;    
+    border-radius: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(99, 179, 129);;
+    margin-top: 10px;
+}
 
 .menu{
     width: 150px;

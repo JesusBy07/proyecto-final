@@ -10,11 +10,33 @@ function asa() {
   };
   var personauno = new persona(nombre, apellido, gmail, contraseña, genero)
   console.log(personauno)
-  localStorage.setItem('personauno', 'ssss');
+  localStorage.setItem("usuario1", JSON.stringify(personauno));
   location.href ='login.html';
-  return false;
 }
 
 function apoyo(){
   alert('la pagina no existente')
+}
+
+function login(){
+  let usuario = JSON.parse(localStorage.getItem("usuario1"));
+   let gmaillog = document.getElementById("gmail-log").value;
+   let contraseñalog = document.getElementById("contraseña-log").value;
+   console.log(usuario.gmail)
+   if(gmaillog && contraseñalog){
+    if(gmaillog == usuario.gmail){
+      if(contraseñalog == usuario.contraseña){
+      usuariologeado(true);
+      modificacion()
+      }
+    }
+   }
+}
+
+function usuariologeado(boolean){
+  localStorage.setItem("usuariologeado", boolean)
+}
+
+function modificacion(){
+
 }
