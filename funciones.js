@@ -26,17 +26,27 @@ function login(){
    if(gmaillog && contraseñalog){
     if(gmaillog == usuario.gmail){
       if(contraseñalog == usuario.contraseña){
-      usuariologeado(true);
-      modificacion()
+      usuariologeado();
       }
     }
    }
 }
 
-function usuariologeado(boolean){
-  localStorage.setItem("usuariologeado", boolean)
+function usuariologeado(){
+  localStorage.setItem("usuariologeado", 1)
 }
 
-function modificacion(){
 
+let usuariologeado1 = localStorage.getItem("usuariologeado") 
+let usuarionombre = JSON.parse(localStorage.getItem("usuario1"));
+  console.log(usuariologeado1)
+if(usuariologeado1 == 1){
+  console.log(usuariologeado1)
+  let sesionnombre = usuarionombre.nombre
+ document.getElementById("textousuario").innerHTML =  sesionnombre;
+}
+
+function logout(){
+  localStorage.setItem("usuariologeado", 0)
+  window.location="index.html";
 }

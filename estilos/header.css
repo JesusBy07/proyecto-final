@@ -20,6 +20,34 @@ header{
     margin-top: 10px;
 }
 
+#textousuario{
+   background:none;
+   border: none;
+   font-size: 20px;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content button:hover {
+    color: white;
+    background-color: rgb(63, 134, 91);
+}
+
 .menu{
     width: 150px;
     height: 40px;    
