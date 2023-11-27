@@ -27,6 +27,7 @@ function login(){
     if(gmaillog == usuario.gmail){
       if(contraseñalog == usuario.contraseña){
       usuariologeado();
+      window.location= "../html/index.html"
       }
     }
    }
@@ -48,5 +49,5 @@ if(usuariologeado1 == 1){
 
 function logout(){
   localStorage.setItem("usuariologeado", 0)
-  window.location="index.html";
+  window.location="../html/index.html";
 }

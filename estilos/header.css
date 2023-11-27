@@ -51,15 +51,15 @@ header{
 .menu{
     width: 150px;
     height: 40px;    
-    border-radius: 20px;
-    margin-left: 50px;
+    border-radius: 1.25rem;
+    margin-left: 3.125rem;
     font-size: 20px;
     align-items: center;
     text-align: center;
     justify-content: center;
     display: flex;
     background-color: rgb(255, 255, 255);
-    margin-top: 10px;
+    margin-top: 0.650rem;
 }
 
 .container-menu, h4{
@@ -73,8 +73,8 @@ header{
 .container-header{
     display: flex;
     align-items: center;
-    margin-left: 5px;
-    margin-top: 7px;
+    margin-left: 0.313rem;
+    margin-top: 0.50rem;
 }
 
 .logo{
