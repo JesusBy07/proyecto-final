@@ -11,7 +11,7 @@ function register() {
   var personauno = new persona(nombre, apellido, gmail, contraseña, genero)
   console.log(personauno)
   localStorage.setItem("usuario1", JSON.stringify(personauno));
-  location.href ='../login.html';
+  location.href ='/login.html';
 }
 
 function apoyo(){
@@ -27,7 +27,7 @@ function login(){
     if(gmaillog == usuario.gmail){
       if(contraseñalog == usuario.contraseña){
       usuariologeado();
-      window.location= "../index.html"
+      window.location= "/index.html"
       }
     }
    }
@@ -49,5 +49,5 @@ if(usuariologeado1 == 1){
 
 function logout(){
   localStorage.setItem("usuariologeado", 0)
-  window.location="../index.html";
+  window.location="/index.html";
 }
