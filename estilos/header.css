@@ -7,17 +7,17 @@ header{
 }
 
 #sesion{
-    width: 9.375em;
-    height: 2.5em;    
-    border-radius: 1.25em;
-    margin-left: 3.125em;
+    width: 13.02vw;
+    height: 5.42vh;    
+    border-radius: 20px;
+    margin-left: 4.34vw;
     font-size: 20px;
     align-items: center;
     text-align: center;
     justify-content: center;
     display: flex;
     background-color: rgb(99, 179, 129);;
-    margin-top: 0.650em;
+    margin-top: 1.35vh;
 }
 
 #textousuario{
@@ -49,17 +49,17 @@ header{
 }
 
 .menu{
-    width: 9.375em;
-    height: 2.5em;    
-    border-radius: 1.25em;
-    margin-left: 3.125em;
+    width: 13.02vw;
+    height: 5.42vh;    
+    border-radius: 20px;
+    margin-left: 4.34vw;
     font-size: 20px;
     align-items: center;
     text-align: center;
     justify-content: center;
     display: flex;
     background-color: rgb(255, 255, 255);
-    margin-top: 0.650em;
+    margin-top: 1.35vh;
 }
 
 .container-menu, h4{
@@ -73,8 +73,8 @@ header{
 .container-header{
     display: flex;
     align-items: center;
-    margin-left: 0.313em;
-    margin-top: 0.50em;
+    margin-left: 0.313rem;
+    margin-top: 0.50rem;
 }
 
 .logo{
