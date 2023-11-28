@@ -1,4 +1,4 @@
-function asa() {
+function register() {
   class persona {
   constructor(nombre, apellido, gmail, contraseña){
     this.nombre = document.getElementById('nombre').value
@@ -11,7 +11,7 @@ function asa() {
   var personauno = new persona(nombre, apellido, gmail, contraseña, genero)
   console.log(personauno)
   localStorage.setItem("usuario1", JSON.stringify(personauno));
-  location.href ='login.html';
+  location.href ='../html/login.html';
 }
 
 function apoyo(){
